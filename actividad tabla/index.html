@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla-Formulario</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="https://w7.pngwing.com/pngs/702/463/png-transparent-favicon-google-logo-new-new-google-logo-icon.png">
+</head>
+<body>
+    <div class="formulario">
+        <p><h1>informacion personal</h1></p>
+        <form>
+            <p><h3>sexo</h3></p>
+            <label><input type="radio" name="hombre" value="hmb"> hombre</label>
+            <label><input type="radio" name="mujer" value="mjr"> mujer</label>
+            <hr>
+            <label>Nombre<br><input type="text" name="Nombre" placeholder="Nombre"></label>
+            <br><br>
+            <label>Apellido<br><input type="text" name="Apellido" placeholder="Apellido"></label>
+            <hr>
+            <label for="Talle">Talle</label>
+                <select name="Talle" id="Talle">
+                    <option value="1">32</option>
+                    <option value="2">36</option>
+                    <option value="3">40</option>
+                    <option value="4">44</option>
+                </select>
+            <hr>
+           <input type="submit" name="enviar" value="enviar">
+           <input type="reset" name="reset" value="resert">
+        </form>
+        <hr>
+    </div>
+    <div class="ContenedorDeTabla">
+        <table cellpadding="10" cellspacing="0" class="tabla" border="20px">
+            <tr>
+                <th colspan="4">presupuestos</th>
+            </tr>
+            <tr>
+                <td><b>1</b></td>
+                <td>presupuesto 1.a</td>
+                <td>presupuesto 1.b</td>
+                <td>presupuesto 1.c</td>
+            </tr>
+            <tr>
+                <td><b>2</b></td>
+                <td>presupuesto 2.a</td>
+                <td>presupuesto 2.b</td>
+                <td>presupuesto 2.c</td>
+            </tr>
+            <tr>
+                <td><b>3</b></td>
+                <td>presupuesto 3.a</td>
+                <td>presupuesto 3.b</td>
+                <td>presupuesto 3.c</td>
+            </tr>
+        </table>
+     </div>
+</body>
+</html>

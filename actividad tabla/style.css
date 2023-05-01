@@ -1,0 +1,45 @@
+body {
+    background-image: url(https://4kwallpapers.com/images/wallpapers/blue-sky-half-moon-crescent-moon-clouds-star-trails-5k-3840x2160-8404.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formulario {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    margin-top: 150px;
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(10px);
+}
+
+.ContenedorDeTabla {
+    margin-top: 150px;
+}
+
+.tabla {
+    text-align: center;
+    border: black 1px solid;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+td {
+    border: rgb(0, 0, 0) 1px solid;
+}
+
+th {
+    text-align: center;
+    border: black 1px solid;
+}
+
+tr{
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 20px;
+}
